@@ -1,0 +1,65 @@
+*{
+    font-family: Robato;
+    padding: 0;
+    margin:0;
+}
+body {
+    box-sizing:border-box;
+    background-color: bisque;
+}
+
+.card-container {
+    width:40%;
+    height:30%;
+    border: none;
+    color:black;
+    background-color:cornsilk;
+    border-radius:1rem;
+    padding:0.8rem;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+img {
+    width: 100%;
+    height:auto;
+    object-fit:cover;
+    margin-bottom:1rem;
+}
+
+h1 {
+    color:black;
+    font-size:1.5rem;
+    text-align: center;
+    margin-bottom:1rem;
+}
+.description {
+    font-size: 0.9rem;
+}
+.rating-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:1rem;
+}
+.price {
+    font-weight:bold;
+}
+.star-container{
+    display: flex;
+    font-weight: bold;
+    color:red;
+}
+.rating{
+    padding-left: 0.2rem;
+}
+
+#container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.heading {
+    padding-top:2rem;
+}
